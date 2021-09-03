@@ -1,0 +1,263 @@
+.about-picture {
+  position: absolute;
+  width: 42.5%;
+  height: 755px;
+  margin-left: 7.5%;
+}
+
+.contact-links {
+  list-style-type: none;
+}
+
+.emphasis {
+  position: absolute;
+  margin-left: 400px
+}
+
+.fab {
+  color: #F4F4F4;
+  transition-property: color;
+}
+
+.fab:hover {
+  color: #FFFFFF;
+  transition-duration: 0.35s;
+}
+
+.far {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #F4F4F4;
+  transition-property: color;
+}
+
+.far:hover {
+  color: #FFFFFF;
+  transition-duration: 0.35s;
+}
+
+/* jQuery Fade In*/
+
+/* .fadeIn {
+    -webkit-animation: animat_show 1.5s;
+    animation: animat_show 1.5s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+} */
+
+/* jQuery Fade In End */
+
+/* jQuery Slide In */
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+/* jQuery Slide In End */
+
+footer {
+  background-color: #ADB8C3;
+  height: 60px;
+}
+
+.footer-p {
+  padding-top: 13px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #F4F4F4;
+}
+
+.h1-programming {
+  font-family: 'Alfa Slab One', cursive;
+  position: absolute;
+  margin-left: 19%;
+  margin-top: 290px;
+  font-size: 38px;
+  padding-top: 16px;
+}
+
+.h1-technical-skills {
+  font-family: 'Alfa Slab One', cursive;
+  position: absolute;
+  margin-left: 62.5%;
+  margin-top: 290px;
+  font-size: 38px;
+}
+
+.h1-writing {
+  font-family: 'Alfa Slab One', cursive;
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 84%;
+  font-size: 38px;
+}
+
+.header-1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 60px;
+  position: absolute;
+  margin-left: 11%;
+  margin-top: 105px;
+  z-index: 1;
+}
+
+.home-header {
+  margin-right: 5%;
+}
+
+hr {
+  background-color: white;
+  margin-top: 43%;
+  margin-bottom: 15%;
+}
+
+.main-picture {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50%;
+  width: 43%;
+  height: 641px;
+}
+
+.nav-link-button {
+  background-color: #ADB8C3;
+  border-width: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 4.5px;
+  margin-right: 0px;
+}
+
+.programming {
+  position: absolute;
+  height: 200px;
+  margin-left: 20%;
+  margin-top: 25%;
+  width: 250px;
+  transition-property: margin-left, margin-top, width, height;
+  transition-duration: 0.5s;
+}
+
+.programming:hover {
+  position: absolute;
+  width: 300px;
+  margin-left: 18.5%;
+  margin-top: 23.5%;
+  height: 250px;
+}
+
+#about {
+  position: absolute;
+  margin-left: 11%;
+  margin-top: 195px;
+  width: 500px;
+  z-index: 1;
+}
+
+.referral-author {
+  color: black;
+  text-decoration: none;
+}
+
+.referral-author:hover {
+  color: #565252;
+}
+
+#second-container {
+  background-color: white;
+  height: 300px;
+  margin-top: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.second-container:hover {
+  /* filter: brightness(0.6); */
+  transition-duration: 1s;
+}
+
+.second-container-header{
+  font-family: 'Alfa Slab One', cursive;
+  margin-left: 67%;
+  margin-top: 40px;
+  font-size: 38px;
+}
+
+.second-container-paragraph{
+  text-align: center;
+  margin-left: 55%;
+  margin-top: 70px;
+  width: 35%;
+}
+
+.signature {
+  font-size: 45px;
+  font-family: 'Great Vibes', cursive;
+  margin-left: 5%;
+  color: #FFFFFF;
+}
+
+.technical-skills {
+  height: 200px;
+  margin-left: 65%;
+  margin-top: 25%;
+  position: absolute;
+  width: 250px;
+  transition-property: margin-left, margin-top, width, height;
+  transition-duration: 0.5s;
+}
+
+.technical-skills:hover {
+  margin-left: 63.5%;
+  width: 300px;
+  height: 250px;
+  margin-top: 23.5%;
+}
+
+.third-container {
+  padding-top: 650px;
+}
+
+.top-container {
+  background-color: #ADB8C3;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.white-container {
+  background-color: #FFFFFF;
+  position: absolute;
+  width: 43%;
+  height: 641px;
+  margin-left: 7.5%;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.writing {
+  position: absolute;
+  height: 200px;
+  margin-left: 80%;
+  margin-top: 25%;
+  width: 250px;
+  transition-property: margin-left, margin-top, width, height;
+  transition-duration: 0.5s;
+}
+
+.writing:hover {
+  margin-left: 78.5%;
+  width: 300px;
+  height: 250px;
+  margin-top: 23.5%;
+}
