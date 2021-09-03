@@ -11,28 +11,28 @@
 
 .emphasis {
   position: absolute;
-  margin-left: 400px
+  margin-left: 400px;
 }
 
 .fab {
-  color: #F4F4F4;
+  color: #f4f4f4;
   transition-property: color;
 }
 
 .fab:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   transition-duration: 0.35s;
 }
 
 .far {
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #F4F4F4;
+  color: #f4f4f4;
   transition-property: color;
 }
 
 .far:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   transition-duration: 0.35s;
 }
 
@@ -59,25 +59,27 @@
 }
 
 @keyframes come-in {
-  to { transform: translateY(0); }
+  to {
+    transform: translateY(0);
+  }
 }
 
 /* jQuery Slide In End */
 
 footer {
-  background-color: #ADB8C3;
+  background-color: #adb8c3;
   height: 60px;
 }
 
 .footer-p {
   padding-top: 13px;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #F4F4F4;
+  font-family: "Josefin Sans", sans-serif;
+  color: #f4f4f4;
 }
 
 .h1-programming {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   position: absolute;
   margin-left: 19%;
   margin-top: 290px;
@@ -86,7 +88,7 @@ footer {
 }
 
 .h1-technical-skills {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   position: absolute;
   margin-left: 62.5%;
   margin-top: 290px;
@@ -94,7 +96,7 @@ footer {
 }
 
 .h1-writing {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   position: absolute;
   margin-top: 290px;
   margin-left: 84%;
@@ -102,7 +104,7 @@ footer {
 }
 
 .header-1 {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   font-size: 60px;
   position: absolute;
   margin-left: 11%;
@@ -121,17 +123,16 @@ hr {
 }
 
 .main-picture {
-  position: absolute;
   margin-top: 20px;
-  margin-left: 50%;
-  width: 43%;
+  width: 50%;
+  margin-right: 20px;
   height: 641px;
 }
 
 .nav-link-button {
-  background-color: #ADB8C3;
+  background-color: #adb8c3;
   border-width: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   padding-top: 4.5px;
@@ -186,14 +187,14 @@ hr {
   transition-duration: 1s;
 }
 
-.second-container-header{
-  font-family: 'Alfa Slab One', cursive;
+.second-container-header {
+  font-family: "Alfa Slab One", cursive;
   margin-left: 67%;
   margin-top: 40px;
   font-size: 38px;
 }
 
-.second-container-paragraph{
+.second-container-paragraph {
   text-align: center;
   margin-left: 55%;
   margin-top: 70px;
@@ -202,9 +203,9 @@ hr {
 
 .signature {
   font-size: 45px;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   margin-left: 5%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .technical-skills {
@@ -229,18 +230,18 @@ hr {
 }
 
 .top-container {
-  background-color: #ADB8C3;
+  background-color: #adb8c3;
   top: 0;
+  display: flex;
   left: 0;
   position: relative;
 }
 
 .white-container {
-  background-color: #FFFFFF;
-  position: absolute;
-  width: 43%;
+  background-color: #ffffff;
+  width: 50%;
   height: 641px;
-  margin-left: 7.5%;
+  margin-left: 20px;
   margin-top: 20px;
   z-index: 0;
 }
